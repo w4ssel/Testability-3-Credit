@@ -8,12 +8,12 @@ public class Main {
 
         System.out.println();
         System.out.println();
-        System.out.println("Сумма ежемесячного платежа на срок 2 год:");
+        System.out.println("Сумма ежемесячного платежа на срок 2 года:");
         System.out.printf("%.0f", service.calculate(1_000_000, 2, 9.99));
 
         System.out.println();
         System.out.println();
-        System.out.println("Сумма ежемесячного платежа на срок 3 год:");
+        System.out.println("Сумма ежемесячного платежа на срок 3 года:");
         System.out.printf("%.0f", service.calculate(1_000_000, 3, 9.99));
     }
 }
